@@ -21,6 +21,26 @@ Class Config {
 	$this->site_theme = $site['theme'];
   }
 
+  public function get_mysql_srv_addr () {
+	return $this->mysql_srv_addr;
+  }
+  
+  public function get_mysql_srv_port () {
+	return $this->mysql_srv_port;
+  }
+  
+  public function get_mysql_srv_user () {
+	return $this->mysql_srv_user;
+  }
+  
+  public function get_mysql_srv_pass () {
+	return $this->mysql_srv_pass;
+  }
+  
+  public function get_mysql_db_name () {
+	return $this->mysql_db_name;
+  }
+  
   public function get_site_name() {
 	return $this->site_name;
   }
