@@ -10,6 +10,7 @@ CREATE TABLE IF NOT EXISTS `Users` (
   `Email` varchar(200) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
   `Login` varchar(20) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
   `Password` varchar(50) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
+  `Status` varchar(50)  CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
   PRIMARY KEY (`Id`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
