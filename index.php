@@ -1,5 +1,7 @@
 <?php
 require_once("core/config.php");
+require_once("core/data.php");
+require_once("core/user.php");
 
 try {
   $config = new Config();
