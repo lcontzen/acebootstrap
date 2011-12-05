@@ -16,4 +16,4 @@
    <p><img src="http://dev.ulb.ac.be/students/ace/site2009/photos/marine.jpg" alt="vpe" width="200" height="200" /></p>
    <p>Marine Anciaux</p>
    </div>
-   </div>
+</div>
