@@ -31,6 +31,10 @@ class User {
 		$data->request($req);
 	}
   }
+
+  public function get_mail_addr() {
+	return $this->email;
+  }
 }
 
 ?>
