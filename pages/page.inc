@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-	<title><?php echo $config->getSiteName()?></title>
+	<title><?php echo $config->get_site_name(); ?></title>
     <!-- <title>Association des Cercles Etudiants</title> -->
     <meta name="description" content="">
     <meta name="author" content="">
@@ -14,7 +14,7 @@
 
     <!-- Le styles -->
 	<!-- <link rel="stylesheet" href="http://twitter.github.com/bootstrap/1.4.0/bootstrap.min.css"> -->
-	<link href="./themes/<?php echo $config->getSiteTheme(); ?>/css/style.css" rel="stylesheet">
+	<link href="./themes/<?php echo $config->get_site_theme(); ?>/css/style.css" rel="stylesheet">
     <link href="assets/js/google-code-prettify/prettify.css" rel="stylesheet">
     <style type="text/css">
       body {
@@ -38,7 +38,7 @@
     <div class="topbar">
       <div class="fill">
         <div class="container">
-	<a class="brand" href="?action=home"><?php echo $config->getSiteName(); ?></a>
+	<a class="brand" href="?action=home"><?php echo $config->get_site_name(); ?></a>
           <ul class="nav">
             <li><a href="?action=home">Accueil</a></li>
             <li><a href="?action=comite">Comité</a></li>
