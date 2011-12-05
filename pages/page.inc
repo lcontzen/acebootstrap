@@ -14,7 +14,8 @@
 
     <!-- Le styles -->
 	<!-- <link rel="stylesheet" href="http://twitter.github.com/bootstrap/1.4.0/bootstrap.min.css"> -->
-    <link href="./themes/bootstrap/bootstrap.css" rel="stylesheet">
+    <!-- <link href="./themes/bootstrap/css/style.css" rel="stylesheet"> -->
+	<link href="./themes/<?php echo $config->getSiteTheme(); ?>/css/style.css" rel="stylesheet">
     <link href="assets/js/google-code-prettify/prettify.css" rel="stylesheet">
     <style type="text/css">
       body {
