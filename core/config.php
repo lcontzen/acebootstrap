@@ -3,6 +3,7 @@ Class Config {
   private $mysql_srv_addr;
   private $mysql_srv_port;
   private $mysql_srv_user;
+  private $mysql_srv_pass;
   private $mysql_db_name;
   private $site_name;
   private $site_url;
@@ -13,7 +14,8 @@ Class Config {
 	$mysql = $ini['mysql'];
 	$this->mysql_srv_addr = $mysql['srv_addr'];
 	$this->mysql_srv_port = $mysql['srv_port'];
-	$this->mysql_server_user = $mysql['srv_user'];
+	$this->mysql_srv_user = $mysql['srv_user'];
+	$this->mysql_srv_pass = $mysql['srv_pass'];
 	$this->mysql_db_name = $mysql['db_name'];
 	$site = $ini['site'];
 	$this->site_name = $site['name'];
