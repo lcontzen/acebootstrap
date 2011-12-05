@@ -22,13 +22,19 @@ class User {
 	  $this->status = $line['Status'];
 	}
 	else {
-	  	$this->email = utf8_decode ($email);
+	  $req = "SELECT * FROM Users WHERE Email LIKE '$email'";
+	  $result = $data->request($req);
+	  if (mysql_num_rows($result) == 0) {
+		$this->email = utf8_decode ($email);
 		$this->password = utf8_decode ($password);
 		$this->login = utf8_decode ($login);
 		$this->status = utf8_decode ($status);
 		$req = "INSERT INTO Users (Email, Login, Password, Status)";
 		$req .= " VALUES ('$this->email', '$this->login', '$this->password', '$this->status')";
 		$data->request($req);
+	  }
+	  else
+		throw new Exception("Mail address already present in db");
 	}
   }
 
