@@ -14,7 +14,6 @@
 
     <!-- Le styles -->
 	<!-- <link rel="stylesheet" href="http://twitter.github.com/bootstrap/1.4.0/bootstrap.min.css"> -->
-    <!-- <link href="./themes/bootstrap/css/style.css" rel="stylesheet"> -->
 	<link href="./themes/<?php echo $config->getSiteTheme(); ?>/css/style.css" rel="stylesheet">
     <link href="assets/js/google-code-prettify/prettify.css" rel="stylesheet">
     <style type="text/css">
@@ -39,7 +38,7 @@
     <div class="topbar">
       <div class="fill">
         <div class="container">
-          <a class="brand" href="?action=home">Association des Cercles Etudiants</a>
+	<a class="brand" href="?action=home"><?php echo $config->getSiteName(); ?></a>
           <ul class="nav">
             <li><a href="?action=home">Accueil</a></li>
             <li><a href="?action=comite">Comité</a></li>
