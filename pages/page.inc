@@ -45,8 +45,8 @@
             <li><a href="?action=photos">Photos</a></li>
             <li><a href="?action=contact">Contact</a></li>
           </ul>
-		  <ul class="nav secondary-nav">
-            <li class="dropdown">
+<!--		  <ul class="nav secondary-nav">
+           <li class="dropdown">
               <a href="#" class="dropdown-toggle">Dropdown</a>
               <ul class="dropdown-menu">
                 <li><a href="#">Secondary link</a></li>
@@ -56,7 +56,12 @@
               </ul>
             </li>
 	        <li><a href="?action=login">Login</a></li>
-          </ul>
+          </ul> -->
+	      <form action="" class="pull-right">
+               <input class="input-small" type="text" placeholder="Username">
+               <input class="input-small" type="password" placeholder="Password">
+               <button class="btn" type="submit">Sign in</button>
+          </form>
         </div>
       </div>
     </div>
