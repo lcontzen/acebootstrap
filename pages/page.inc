@@ -57,9 +57,9 @@
             </li>
 	        <li><a href="?action=login">Login</a></li>
           </ul> -->
-	      <form action="" class="pull-right">
-               <input class="input-small" type="text" placeholder="Username">
-               <input class="input-small" type="password" placeholder="Password">
+	      <form action="?action=signin" class="pull-right" method="post">
+               <input class="input-small" type="text" name="username" placeholder="Username">
+               <input class="input-small" type="password" name="passwd" placeholder="Password">
                <button class="btn" type="submit">Sign in</button>
           </form>
         </div>
