@@ -55,6 +55,7 @@
                 <li><a href="#">Another link</a></li>
               </ul>
             </li>
+	        <li><a href="?action=login">Login</a></li>
           </ul>
         </div>
       </div>
