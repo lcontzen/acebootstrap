@@ -90,6 +90,7 @@
             <li><a href="#">Link</a></li>
             <li><a href="#">Link</a></li>
           </ul>
+	      <h5><a href="?action=register">Register</a></h5>
         </div>
       </div>
       <div class="content">
