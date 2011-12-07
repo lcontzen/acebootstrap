@@ -38,9 +38,9 @@ class User {
 	}
   }
 
-  public function get_mail_addr() {
-	return $this->email;
-  }
+  public function get_mail_addr() { return $this->email; }
+  public function get_username() { return $this->username; }
+  
 }
 
 ?>
