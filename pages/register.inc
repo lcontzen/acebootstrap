@@ -1,7 +1,7 @@
 <h2>Register a new user</h2>
 <div class="row">
    <div class="span12">
-     <form action="?action=register" method="post">
+     <form action="?action=registernew" method="post">
        <fieldset>
          <div class="clearfix">
            <label for="xlInput"><b>Email Address</b></label>
