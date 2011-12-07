@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+	<head>
     <meta charset="utf-8">
 	<title><?php echo $config->get_site_name(); ?></title>
     <!-- <title>Association des Cercles Etudiants</title> -->
@@ -38,7 +38,7 @@
     <div class="topbar">
       <div class="fill">
         <div class="container">
-	<a class="brand" href="?action=home"><?php echo $config->get_site_name(); ?></a>
+	      <a class="brand" href="?action=home"><?php echo $config->get_site_name(); ?></a>
           <ul class="nav">
             <li><a href="?action=home">Accueil</a></li>
             <li><a href="?action=comite">Comité</a></li>
