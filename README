@@ -1,3 +1,6 @@
 This is the new ace's website project.
 
 Done in html/css and php/mysql with twitter's bootstrap project as default css (at least for now).
+
+Idees :
+- Table comites avec cercle | nom | prenom | ... utilisée pour la page comité ace et pour les listes
