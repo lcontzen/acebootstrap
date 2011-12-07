@@ -1,9 +1,13 @@
 <?php
+require_once("core/user.php");
 
 class Auth {
+  private $user;
+  private $anonymous;
+  
   public function __construct() {
 	session_start();
-  		if (isset ($_SESSION['email']) && isset ($_SESSION['password'])) {
+  		if (isset ($_SESSION['email']) && isset ($_SESSION['passwd'])) {
 			session_start ();
 			$data = Data::create ();
 			extract ($_SESSION, EXTR_PREFIX_ALL, "auth");
@@ -20,10 +24,10 @@ class Auth {
 			$this->anonymous = false;
 		}
 		
-		else if (isset ($_POST['action']) && $_POST['action'] == "login") {
+		else if (isset ($_GET['action']) && $_GET['action'] == "signin") {
 			$data = Data::create ();
 			extract ($_POST, EXTR_PREFIX_ALL, "auth");
-			$req = "SELECT Email,Password FROM Users WHERE (Email = '$auth_email' AND Password = '$auth_password')";
+			$req = "SELECT Email,Password FROM Users WHERE (Email = '$auth_email' AND Password = '$auth_passwd')";
 			$result = $data->request ($req);
 			if (mysql_num_rows ($result) == 0) {
 				session_destroy ();
@@ -31,12 +35,13 @@ class Auth {
 			}
 			$line = mysql_fetch_array ($result);
 			$_SESSION['email'] = $line['Email'];
-			$_SESSION['password'] = $line['Password'];
+			$_SESSION['passwd'] = $line['Password'];
 			$this->user = new User ($line['Email']);
 			$this->anonymous = false;
 		}
-		else
+		else {
 			$this->anonymous = true;
+		}
 	}
 
 	public function disconnect () {

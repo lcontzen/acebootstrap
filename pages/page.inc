@@ -58,7 +58,7 @@
 	        <li><a href="?action=login">Login</a></li>
           </ul> -->
 	      <form action="?action=signin" class="pull-right" method="post">
-               <input class="input-small" type="text" name="username" placeholder="Username">
+               <input class="input-small" type="text" name="email" placeholder="Email">
                <input class="input-small" type="password" name="passwd" placeholder="Password">
                <button class="btn" type="submit">Sign in</button>
           </form>
@@ -91,10 +91,13 @@
             <li><a href="#">Link</a></li>
           </ul>
 	      <h5><a href="?action=register">Register</a></h5>
+	<?php
+	if (!$auth->is_anonymous())
+	  echo "<h5><a href=\"?action=logout\">Logout</a></h5>";
+?>
         </div>
       </div>
       <div class="content">
-
 	<?php
 	include_once("pages/" . $action . ".inc");
 ?>
