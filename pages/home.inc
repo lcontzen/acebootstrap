@@ -1,6 +1,6 @@
 <div class="hero-unit">
    <h2>Nuit Théodore Verhaegen 2011-2012</h2>
-   <img src="http://dev.ulb.ac.be/students/ace/site2009/images/ntv11.jpg" />
+   <img src="data/images/ntv11.jpg" />
    <p>	L Association des Cercles Etudiants, le Cercle du Libre-Examen, l'Union des Anciens Etudiants et l'Ordre Théodore Verhaegen ont le plaisir de vous convier à sa NUIT THEODORE VERHAEGEN dans le cadre superbement restauré de l'ARSENAL d'Etterbeek ! <br />
    <p><a class="btn primary large">Page du bal &raquo;</a></p>
 </div> 
@@ -8,7 +8,7 @@
 <div class="row">
    <div class="span6">
    <h3>Quête sociale</h2>
-   <img src="http://dev.ulb.ac.be/students/ace/site2009/images/cap48.jpg" />
+   <img src="data/images/cap48.jpg" />
   <p>Depuis de nombreuses années, à l'approche de la Saint-V, les étudiants fraîchement baptisés partent à l'assaut des passants et automobilistes pour solliciter quelques oboles. L'origine de cette tradition est très lointaine et incertaine. Mais, lorsque nous retraçons l'histoire de la Saint-V, nous découvrons qu'en 1939, l'Association Générale des Etudiants (ancêtre de l actuelle Association des Cercles Etudiants) 
    <p><a class="btn" href="#">En savoir plus &raquo;</a></p> 
 </div>
