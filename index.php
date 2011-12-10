@@ -9,11 +9,11 @@ try {
   $config = new Config();
   $action = isset ($_GET['action']) ? $_GET['action'] : "home";
   if ($auth->is_anonymous ()) {
-	if ($action == "registernew" && isset ($_POST['email'])) {
+	if ($action == "registernew" && isset ($_POST['username'])) {
 	  extract ($_POST, EXTR_PREFIX_ALL, "reg");
-	  $user = new User ($reg_email,
+	  $user = new User ($reg_username,
 						$reg_passwd,
-						$reg_username,
+						$reg_email,
 						'temp');
 	  $action = "signin";
 	}

@@ -7,36 +7,36 @@ class Auth {
   
   public function __construct() {
 	session_start();
-  		if (isset ($_SESSION['email']) && isset ($_SESSION['passwd'])) {
+  		if (isset ($_SESSION['username']) && isset ($_SESSION['passwd'])) {
 			session_start ();
 			$data = Data::create ();
 			extract ($_SESSION, EXTR_PREFIX_ALL, "auth");
-			$req = "SELECT Email,Password FROM Users WHERE (Email = '$auth_email' AND Password = '$auth_passwd')";
+			$req = "SELECT Username,Password FROM Users WHERE (Username = '$auth_username' AND Password = '$auth_passwd')";
 			$result = $data->request ($req);
 			if (mysql_num_rows ($result) == 0) {
 				session_destroy ();
-				throw new Exception (get_class ($this) . " : Bad email or password !");
+				throw new Exception (get_class ($this) . " : Bad username or password !");
 			}
 			$line = mysql_fetch_array ($result);
-			$_SESSION['email'] = $line['Email'];
+			$_SESSION['username'] = $line['Username'];
 			$_SESSION['passwd'] = $line['Password'];
-			$this->user = new User ($line['Email']);
+			$this->user = new User ($line['Username']);
 			$this->anonymous = false;
 		}
 		
 		else if (isset ($_GET['action']) && $_GET['action'] == "signin") {
 			$data = Data::create ();
 			extract ($_POST, EXTR_PREFIX_ALL, "auth");
-			$req = "SELECT Email,Password FROM Users WHERE (Email = '$auth_email' AND Password = '$auth_passwd')";
+			$req = "SELECT Username,Password FROM Users WHERE (Username = '$auth_username' AND Password = '$auth_passwd')";
 			$result = $data->request ($req);
 			if (mysql_num_rows ($result) == 0) {
 				session_destroy ();
-				throw new Exception (get_class ($this) . " : Bad email or password !");
+				throw new Exception (get_class ($this) . " : Bad username or password !");
 			}
 			$line = mysql_fetch_array ($result);
-			$_SESSION['email'] = $line['Email'];
+			$_SESSION['username'] = $line['Username'];
 			$_SESSION['passwd'] = $line['Password'];
-			$this->user = new User ($line['Email']);
+			$this->user = new User ($line['Username']);
 			$this->anonymous = false;
 		}
 		else {

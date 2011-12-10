@@ -8,13 +8,13 @@ class User {
   private $username;
   private $status;
 
-  public function __construct($email, $password, $username, $status) {
+  public function __construct($username, $password, $email, $status) {
 	$data = Data::create();
 	if(!isset($password)) {
-	  $req = "SELECT * FROM Users WHERE Email LIKE '$email'";
+	  $req = "SELECT * FROM Users WHERE Username LIKE '$username'";
 	  $result = $data->request($req);
 	  if (mysql_num_rows($result) == 0)
-		throw new Exception("User $email not found");
+		throw new Exception("User $username not found in User::__construct first if");
 	  $line = mysql_fetch_array($result);
 	  $this->email = $line['Email'];
 	  $this->password = $line['Password'];
@@ -22,7 +22,7 @@ class User {
 	  $this->status = $line['Status'];
 	}
 	else {
-	  $req = "SELECT * FROM Users WHERE Email LIKE '$email'";
+	  $req = "SELECT * FROM Users WHERE Username LIKE '$username'";
 	  $result = $data->request($req);
 	  if (mysql_num_rows($result) == 0) {
 		$this->email = utf8_decode ($email);
