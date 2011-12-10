@@ -11,8 +11,9 @@ try {
   if ($auth->is_anonymous ()) {
 	if ($action == "registernew" && isset ($_POST['username'])) {
 	  extract ($_POST, EXTR_PREFIX_ALL, "reg");
+	  $hashed_passwd = md5($reg_passwd);
 	  $user = new User ($reg_username,
-						$reg_passwd,
+						$hashed_passwd,
 						$reg_email,
 						'temp');
 	  $action = "signin";
