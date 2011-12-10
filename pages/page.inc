@@ -30,8 +30,9 @@
 
   <body>
 	
-    <div class="topbar">
-      <div class="fill">
+    <div class="topbar-wrapper" style="z-index: 5;">
+	  <div class="topbar" data-dropdown="dropdown">
+      <div class="topbar-inner">
         <div class="container">
 	      <a class="brand" href="?action=home"><?php echo $config->get_site_name(); ?></a>
           <ul class="nav">
@@ -40,7 +41,7 @@
             <li><a href="?action=photos">Photos</a></li>
             <li><a href="?action=contact">Contact</a></li>
           </ul>
-	  <ul class="nav secondary-nav">
+	<!--  <ul class="nav secondary-nav">
            <li class="dropdown">
               <a href="#" class="dropdown-toggle">Dropdown</a>
               <ul class="dropdown-menu">
@@ -51,7 +52,7 @@
               </ul>
             </li>
 	        <li><a href="?action=login">Login</a></li>
-          </ul> 
+          </ul> -->
 	      <form action="?action=signin" class="pull-right" method="post">
                <input class="input-small" type="text" name="username" placeholder="Username">
                <input class="input-small" type="password" name="passwd" placeholder="Password">
@@ -59,8 +60,11 @@
           </form>
         </div>
       </div>
-    </div>
+    </div> 
+	</div>
+	</div>
 
+	
 	<div class="container-fluid">
       <div class="sidebar">
         <div class="well">
