@@ -20,12 +20,12 @@
         padding-top: 60px;
       }
     </style>
-	  <script src="./themes/<?php echo $config->get_site_theme(); ?>/js/jquery-1.5.2.min.js"></script>
+	  <script type="text/javascript" src="./themes/<?php echo $config->get_site_theme(); ?>/js/jquery-1.5.2.min.js"></script>
       <!-- <script src="http://autobahn.tablesorter.com/jquery.tablesorter.min.js"></script> -->
-      <script src="./themes/<?php echo $config->get_site_theme(); ?>/js/prettify.js"></script>
+      <script type="text/javascript" src="./themes/<?php echo $config->get_site_theme(); ?>/js/prettify.js"></script>
       <script>$(function () { prettyPrint() })</script>
-	  <script src="./themes/<?php echo $config->get_site_theme(); ?>/js/bootstrap-dropdown.js"></script>
-	  <script src="./themes/<?php echo $config->get_site_theme(); ?>/js/application.js"></script>
+	  <script type="text/javascript" src="./themes/<?php echo $config->get_site_theme(); ?>/js/bootstrap-dropdown.js"></script>
+	  <script type="text/javascript" src="./themes/<?php echo $config->get_site_theme(); ?>/js/application.js"></script>
   </head>
 
   <body>
