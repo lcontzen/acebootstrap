@@ -13,19 +13,19 @@
     <![endif]-->
 
     <!-- Le styles -->
-	<!-- <link rel="stylesheet" href="http://twitter.github.com/bootstrap/1.4.0/bootstrap.min.css"> -->
 	<link href="./themes/<?php echo $config->get_site_theme(); ?>/css/style.css" rel="stylesheet">
-    <link href="assets/js/google-code-prettify/prettify.css" rel="stylesheet">
+    <link href="./themes/<?php echo $config->get_site_theme(); ?>/css/prettify.css" rel="stylesheet">
     <style type="text/css">
       body {
         padding-top: 60px;
       }
     </style>
-	  <script src="http://code.jquery.com/jquery-1.5.2.min.js"></script>
-      <script src="http://autobahn.tablesorter.com/jquery.tablesorter.min.js"></script>
-      <script src="assets/js/google-code-prettify/prettify.js"></script>
+	  <script src="./themes/<?php echo $config->get_site_theme(); ?>/js/jquery-1.5.2.min.js"></script>
+      <!-- <script src="http://autobahn.tablesorter.com/jquery.tablesorter.min.js"></script> -->
+      <script src="./themes/<?php echo $config->get_site_theme(); ?>/js/prettify.js"></script>
       <script>$(function () { prettyPrint() })</script>
-	  <script src="bootstrap-dropdown.js"></script>
+	  <script src="./themes/<?php echo $config->get_site_theme(); ?>/js/bootstrap-dropdown.js"></script>
+	  <script src="./themes/<?php echo $config->get_site_theme(); ?>/js/application.js"></script>
   </head>
 
   <body>
@@ -40,7 +40,7 @@
             <li><a href="?action=photos">Photos</a></li>
             <li><a href="?action=contact">Contact</a></li>
           </ul>
-<!--		  <ul class="nav secondary-nav">
+	  <ul class="nav secondary-nav">
            <li class="dropdown">
               <a href="#" class="dropdown-toggle">Dropdown</a>
               <ul class="dropdown-menu">
@@ -51,7 +51,7 @@
               </ul>
             </li>
 	        <li><a href="?action=login">Login</a></li>
-          </ul> -->
+          </ul> 
 	      <form action="?action=signin" class="pull-right" method="post">
                <input class="input-small" type="text" name="username" placeholder="Username">
                <input class="input-small" type="password" name="passwd" placeholder="Password">
