@@ -54,12 +54,12 @@
 	  ?>
 	     <ul class="nav secondary-nav">
            <li class="dropdown">
-              <a href="#" class="dropdown-toggle">Dropdown</a>
+	  <a href="#" class="dropdown-toggle"><?php echo $user->get_username(); ?></a>
               <ul class="dropdown-menu">
-                <li><a href="#">Secondary link</a></li>
-                <li><a href="#">Something else here</a></li>
+                <li><a href="#">Todo</a></li>
+                <li><a href="#">Todo</a></li>
                 <li class="divider"></li>
-                <li><a href="#">Another link</a></li>
+                <li><a href="?action=logout">Logout</a></li>
               </ul>
             </li>
           </ul>
@@ -98,10 +98,6 @@
             <li><a href="#">Link</a></li>
           </ul>
 	      <h5><a href="?action=register">Register</a></h5>
-	<?php
-	if (!$auth->is_anonymous())
-	  echo "<h5><a href=\"?action=logout\">Logout</a></h5>";
-?>
         </div>
       </div>
       <div class="content">
