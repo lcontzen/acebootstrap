@@ -27,7 +27,7 @@ class Auth {
 		else if (isset ($_GET['action']) && $_GET['action'] == "signin") {
 			$data = Data::create ();
 			extract ($_POST, EXTR_PREFIX_ALL, "auth");
-			$hashed_passwd = md5($auth_passwd);
+			$hashed_passwd = sha1($auth_passwd);
 			$req = "SELECT Username,Password FROM Users WHERE (Username = '$auth_username' AND Password = '$hashed_passwd')";
 			$result = $data->request ($req);
 			if (mysql_num_rows ($result) == 0) {
