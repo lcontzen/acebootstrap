@@ -26,7 +26,6 @@ try {
 	  $action = 'home';
 	}
   }
-  
   include("pages/page.inc");
 }
 catch (Exception $e) {
