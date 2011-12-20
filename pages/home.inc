@@ -1,7 +1,7 @@
 <div class="hero-unit">
    <h2>Nuit Théodore Verhaegen 2011-2012</h2>
    <img src="data/images/ntv11.jpg" />
-   <p>	L Association des Cercles Etudiants, le Cercle du Libre-Examen, l'Union des Anciens Etudiants et l'Ordre Théodore Verhaegen ont le plaisir de vous convier à sa NUIT THEODORE VERHAEGEN dans le cadre superbement restauré de l'ARSENAL d'Etterbeek ! <br />
+   <p> L Association des Cercles Etudiants, le Cercle du Libre-Examen, l'Union des Anciens Etudiants et l'Ordre Théodore Verhaegen ont le plaisir de vous convier à sa NUIT THEODORE VERHAEGEN dans le cadre superbement restauré de l'ARSENAL d'Etterbeek ! <br />
    <p><a class="btn primary large">Page du bal &raquo;</a></p>
 </div> 
 <h2>Dernières nouvelles :</h2>
