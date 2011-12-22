@@ -67,9 +67,7 @@
 		  </ul>
 		  <h5>Divers</h5>
 		  <ul>
-			<li><a href="#">Link</a></li>
-			<li><a href="#">Link</a></li>
-			<li><a href="#">New link</a></li>
+			<li><a href="#">Liens</a></li>
 		  </ul>
 		</div>
 	  </div> 
