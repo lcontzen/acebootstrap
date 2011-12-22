@@ -100,7 +100,7 @@
           </ul>
 	      <h5><a href="?action=register">Register</a></h5>
         </div>
-      </div>
+      </div> 
       <div class="content">
 	<?php
 	include_once("pages/" . $action . ".inc");
