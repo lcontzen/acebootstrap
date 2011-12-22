@@ -28,7 +28,7 @@
 	   $mailcheck = spamcheck($_REQUEST['email']);
 	   if ($mailcheck==FALSE)
 		 {
-		   echo "Invalid input";
+		   echo "Adresse mail non valide";
 		 }
 	   else
 		 {//send email
@@ -42,13 +42,6 @@
 	 }
    else
 	 {//if "email" is not filled out, display the form
-	   echo "<form method='post' action='?action=contact'>
-  Email: <input name='email' type='text' /><br />
-  Subject: <input name='subject' type='text' /><br />
-  Message:<br />
-  <textarea name='message' rows='15' cols='200'>
-  </textarea><br />
-  <input type='submit' />
-  </form>";
+	   include("contactform.inc");
 	 }
 ?>
