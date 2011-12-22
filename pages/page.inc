@@ -41,7 +41,7 @@
             <li><a href="?action=photos">Photos</a></li>
             <li><a href="?action=contact">Contact</a></li>
           </ul>
-	<?php
+<!--	<?php
 	if($auth->is_anonymous()) {
 	  ?>
 	      <form action="?action=signin" class="pull-right" method="post">
@@ -65,7 +65,7 @@
           </ul>
 	  <?php
 	}
-?>
+?> -->
         </div>
       </div>
     </div> 
