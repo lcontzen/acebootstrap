@@ -41,31 +41,6 @@
               <li><a href="?action=photos">Photos</a></li>
               <li><a href="?action=contact">Contact</a></li>
 			</ul>
-			<!--	<?php
-			  if($auth->is_anonymous()) {
-			?>
-			<form action="?action=signin" class="pull-right" method="post">
-              <input class="input-small" type="text" name="username" placeholder="Username">
-              <input class="input-small" type="password" name="passwd" placeholder="Password">
-              <button class="btn" type="submit">Sign in</button>
-			</form>
-			<?php
-			  } else {
-			?>
-			<ul class="nav secondary-nav">
-			  <li class="dropdown">
-				<a href="#" class="dropdown-toggle"><?php echo $user->get_username(); ?></a>
-				<ul class="dropdown-menu">
-                  <li><a href="#">Todo</a></li>
-                  <li><a href="#">Todo</a></li>
-                  <li class="divider"></li>
-                  <li><a href="?action=logout">Logout</a></li>
-				</ul>
-              </li>
-			</ul>
-			<?php
-			  }
-			?> -->
           </div>
 		</div>
       </div> 
@@ -96,7 +71,6 @@
 			<li><a href="#">Link</a></li>
 			<li><a href="#">New link</a></li>
 		  </ul>
-		  <h5><a href="?action=register">Register</a></h5>
 		</div>
 	  </div> 
 	  <div class="content">
