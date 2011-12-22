@@ -8,7 +8,7 @@ Class Config {
   private $site_name;
   private $site_url;
   private $site_theme;
-
+  
   public function __construct () {
 	$ini = parse_ini_file(getcwd() . "/config.ini", true);
 	$mysql = $ini['mysql'];
@@ -22,7 +22,7 @@ Class Config {
 	$this->site_url = $site['url'];
 	$this->site_theme = $site['theme'];
   }
-
+  
   public function get_mysql_srv_addr () {
 	return $this->mysql_srv_addr;
   }
@@ -46,7 +46,7 @@ Class Config {
   public function get_site_name() {
 	return $this->site_name;
   }
-
+  
   public function get_site_url() {
 	return $this->site_url;
   }
@@ -54,7 +54,6 @@ Class Config {
   public function get_site_theme() {
 	return $this->site_theme;
   }
-
+  
 }
 ?>
-	

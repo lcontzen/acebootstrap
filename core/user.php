@@ -7,7 +7,7 @@ class User {
   private $password;
   private $username;
   private $status;
-
+  
   public function __construct($username, $password, $email, $status) {
 	$data = Data::create();
 	if(!isset($password)) {
@@ -37,7 +37,7 @@ class User {
 		throw new Exception("Mail address already present in db");
 	}
   }
-
+  
   public function get_mail_addr() { return $this->email; }
   public function get_username() { return $this->username; }
   

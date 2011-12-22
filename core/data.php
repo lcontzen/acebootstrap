@@ -4,7 +4,7 @@ require_once("core/config.php");
 class Data {
   private static $instance;
   private $connection;
-
+  
   private function __construct() {
 	$config = new Config();
 	$this->connection = mysql_connect($config->get_mysql_srv_addr() . ":" . $config->get_mysql_srv_port(), $config->get_mysql_srv_user(), $config->get_mysql_srv_pass());
