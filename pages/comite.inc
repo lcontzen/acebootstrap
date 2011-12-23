@@ -1,4 +1,6 @@
-<h1>Comité ACE 2011-2012</h1>
+<div class="page-header">
+  <h1>Comité ACE 2011-2012</h1>
+</div>
 
 <div class="row" align="center">
   <div class="span5">
