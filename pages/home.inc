@@ -15,7 +15,7 @@
 	<h3>Quête sociale</h3>
 	<img src="data/images/cap48.jpg" width="100"/>
 	<p>Depuis de nombreuses années, à l'approche de la Saint-V, les étudiants fraîchement baptisés partent à l'assaut des passants et automobilistes pour solliciter quelques oboles. L'origine de cette tradition est très lointaine et incertaine. Mais, lorsque nous retraçons l'histoire de la Saint-V, nous découvrons qu'en 1939, l'Association Générale des Etudiants (ancêtre de l actuelle Association des Cercles Etudiants) 
-	<p><a class="btn" href="#">En savoir plus &raquo;</a></p> 
+	<p><a class="btn" href="?action=quetesociale">En savoir plus &raquo;</a></p> 
   </div>
   <div class="span5">
 	<h3>Heading</h3>
