@@ -54,7 +54,7 @@
   
   if ($result) {
 ?>
-<p><a href="data/listes/vlecks/listesvlecks.zip"class="btn large"><b>Download</b></a></p>
+<p><a href="data/listes/vlecks/listesvlecks.zip"class="btn"><b>Download</b></a></p>
 <?php
   }
   else
