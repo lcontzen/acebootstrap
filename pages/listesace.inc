@@ -3,9 +3,7 @@
 </div>
 
 <h3>Liste complète</h3>
-<ul>
-  <li><a href="data/listes/ace/Listes ACE – 2011.docx">Liste complète</a></li>
-</ul>
+<a class="btn" href="data/listes/ace/Listes ACE – 2011.docx"><b>Download</b></a>
 
 <h3>Listes par Cercle</h3>
 <ul>
