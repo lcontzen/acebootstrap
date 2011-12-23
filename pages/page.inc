@@ -58,6 +58,7 @@
 			<li><a href="?action=facturejefke">Facture Jefke</a></li>
 			<li><a href="?action=statuts">Statuts de lACE</a></li>
 			<li><a href="?action=postes">Description des postes</a></li>
+			<li><a href="?action=heresie">Hérésie</a></li>
 		  </ul>
 		  <h5>Agenda</h5>
 		  <ul>
