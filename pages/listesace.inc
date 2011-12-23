@@ -19,9 +19,9 @@
 	unset($i);
 	
 	foreach($lists as &$item) {
-		$tmp = preg_replace("/\\.[^.\\s]{3,4}$/", "", $item);
-		$tmp = str_replace("Liste", "Comité", $tmp);
-		echo "<li><a href=\"" . $dir . "/" . $item . "\">" . $tmp . "</a></li>";
+	  $tmp = preg_replace("/\\.[^.\\s]{3,4}$/", "", $item);
+	  $tmp = str_replace("Liste", "Comité", $tmp);
+	  echo "<li><a href=\"" . $dir . "/" . $item . "\">" . $tmp . "</a></li>";
 	}
 	unset($item);
   ?>
