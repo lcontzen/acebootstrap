@@ -38,7 +38,7 @@
 	<h3>Trésorière Folklore</h3>
 	<p><img src="data/pics/comite1112/julie.jpg" alt="Trésorière Folklore"width="120" height="170" /></p>
 	<p><b>Julie Berthelier</b><br />
-		  <a href="mailto:tresorierfolklore@ace-ulb.org">tresorierfolklore@ace-ulb.org</a></p> 
+	  <a href="mailto:tresorierfolklore@ace-ulb.org">tresorierfolklore@ace-ulb.org</a></p> 
   </div>
   
   <div class="span5">
@@ -57,7 +57,7 @@
 	<h3>Culture/Hérésie</h3>
 	<p><img src="data/pics/comite1112/nicolas.jpg" alt="Culture/Hérésie"width="120" height="170" /></p>
 	<p><b>Nicolas Finet</b><br />
-		  <a href="mailto:culture@ace-ulb.org">culture@ace-ulb.org</a></p> 
+	  <a href="mailto:culture@ace-ulb.org">culture@ace-ulb.org</a></p> 
   </div>
   
   <div class="span5">
@@ -76,7 +76,7 @@
 	<h3>Social/Librex</h3>
 	<p><img src="data/pics/comite1112/zoe.jpg" alt="Social/Librex"width="120" height="170" /></p>
 	<p><b>Zoé Gennaux</b><br />
-		  <a href="mailto:social@ace-ulb.org">social@ace-ulb.org</a></p> 
+	  <a href="mailto:social@ace-ulb.org">social@ace-ulb.org</a></p> 
   </div>
   
   <div class="span5">
@@ -95,6 +95,6 @@
 	<h3>Web</h3>
 	<p><img src="data/pics/comite1112/laurent.jpg" alt="Web"width="120" height="170" /></p>
 	<p><b>Laurent Contzen</b><br />
-		  <a href="mailto:webmaster@ace-ulb.org">webmaster@ace-ulb.org</a></p> 
+	  <a href="mailto:webmaster@ace-ulb.org">webmaster@ace-ulb.org</a></p> 
   </div>
 </div>
