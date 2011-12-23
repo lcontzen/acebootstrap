@@ -12,12 +12,18 @@
   <?php
    	$dir = "data/listes/ace";
 	$lists = scandir($dir);
+	
+	// Ignore some files in the list displayed
+	$ignore = array(".", "..", "Listes ACE – 2011.docx", ".gitignore");
+	foreach ($ignore as $i)
+	  unset($lists[array_search($i ,$lists)]);
+	$lists = array_values($lists);
+	unset($i);
+	
 	foreach($lists as &$item) {
-	  if($item != '.' && $item != '..' && $item != "Listes ACE – 2011.docx") {
 		$tmp = preg_replace("/\\.[^.\\s]{3,4}$/", "", $item);
 		$tmp = str_replace("Liste", "Comité", $tmp);
 		echo "<li><a href=\"" . $dir . "/" . $item . "\">" . $tmp . "</a></li>";
-	  }
 	}
 	unset($item);
   ?>
