@@ -49,7 +49,7 @@
 	<div class="container-fluid">
 	  <div class="sidebar">
 		<div class="well">
-		  <h5>Documents</h5>
+		  <b>Documents</b>
 		  <ul>
 			<li><a href="?action=listesace">Listes ACE</a></li>
 			<li><a href="?action=vlecks">Listes Vlecks</a></li>
@@ -60,15 +60,20 @@
 			<li><a href="?action=postes">Description des postes</a></li>
 			<li><a href="?action=heresie">Hérésie</a></li>
 		  </ul>
-		  <h5>Agenda</h5>
+		  <b>Agenda</b>
 		  <ul>
-			<li><a href="#">TDs</a></li>
-			<li><a href="#">Bals</a></li>
-			<li><a href="#">Autres</a></li>
+			<li><a href="?action=tds">TDs</a></li>
+			<li><a href="?action=bals">Bals</a></li>
 		  </ul>
-		  <h5>Divers</h5>
+		  <b>Activités</b>
 		  <ul>
-			<li><a href="#">Liens</a></li>
+			<li><a href="?action=saintv">Saint V</a></li>
+			<li><a href="?action=quetesociale">Quête Sociale</a></li>
+			<li><a href="?action=ntv">Nuit Théodore Verhaegen</a></li>
+		  </ul> 
+		  <b>Divers</b>
+		  <ul>
+			<li><a href="?action=links">Liens</a></li>
 		  </ul>
 		</div>
 	  </div> 
