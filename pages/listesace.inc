@@ -6,7 +6,7 @@
 <p><a class="btn" href="data/listes/ace/Listes ACE – 2011.docx"><b>Download</b></a></p>
 
 <h3>Listes par Cercle</h3>
-<ul>
+<div class="row">
   <?php
    	$dir = "data/listes/ace";
 	$lists = scandir($dir);
@@ -17,12 +17,17 @@
 	  unset($lists[array_search($i ,$lists)]);
 	$lists = array_values($lists);
 	unset($i);
-	
-	foreach($lists as &$item) {
-	  $tmp = preg_replace("/\\.[^.\\s]{3,4}$/", "", $item);
-	  $tmp = str_replace("Liste", "Comité", $tmp);
-	  echo "<li><a href=\"" . $dir . "/" . $item . "\">" . $tmp . "</a></li>";
-	}
-	unset($item);
+
+	for ($i = 0; $i < 3; $i++) {
+		echo "<div class=\"span5\"> \n";
+		echo "<ul> \n";
+		for ($j = (($i +1)*10) - 10; $j < (($i + 2)*10) - 10; $j++) {
+		  $tmp = preg_replace("/\\.[^.\\s]{3,4}$/", "", $lists[$j]);
+		  $tmp = str_replace("Liste", "Comité", $tmp);
+		  echo "<li><a href=\"" . $dir . "/" . $lists[$j] . "\">" . $tmp . "</a></li> \n";
+		}
+		echo "</ul> \n";
+		echo "</div> \n";
+	  }
   ?>
-</ul>
+</div>
