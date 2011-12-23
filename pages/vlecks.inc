@@ -70,6 +70,7 @@
 		  if ($lists[$j] != null) {
 			$tmp = preg_replace("/\\.[^.\\s]{3,4}$/", "", $lists[$j]);
 			$tmp = explode(" ", $tmp);
+			$tmp = str_replace("_", " ", $tmp);
 			echo "<li><a href=\"" . $dir . "/" . $lists[$j] . "\">" . $tmp[0] . "</a></li> \n";
 		  }
 		}
