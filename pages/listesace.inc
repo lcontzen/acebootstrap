@@ -21,7 +21,7 @@
 	for ($i = 0; $i < 3; $i++) {
 		echo "<div class=\"span5\"> \n";
 		echo "<ul> \n";
-		for ($j = (($i +1)*10) - 10; $j < (($i + 2)*10) - 10; $j++) {
+		for ($j = ($i *10); $j < ($i + 1)*10; $j++) {
 		  $tmp = preg_replace("/\\.[^.\\s]{3,4}$/", "", $lists[$j]);
 		  $tmp = str_replace("Liste", "Comité", $tmp);
 		  echo "<li><a href=\"" . $dir . "/" . $lists[$j] . "\">" . $tmp . "</a></li> \n";
