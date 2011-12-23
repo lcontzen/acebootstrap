@@ -3,7 +3,7 @@
 </div>
 <div class="row">
   <div class="span7">
-	<table>
+	<table class="zebra-striped">
 	  <thead>
 		<tr>
 		  <th>Cercle</th>
