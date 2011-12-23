@@ -8,13 +8,13 @@
   <div class="span6">
 	<h3>Nuit Théodore Verhaegen 2011</h3>
 	<a href="?action=ntv"><img src="data/images/ntv11.jpg" height="150"/></a>
-	<p> L Association des Cercles Etudiants, le Cercle du Libre-Examen, l'Union des Anciens Etudiants et l'Ordre Théodore Verhaegen ont le plaisir de vous convier à sa NUIT THEODORE VERHAEGEN dans le cadre superbement restauré de l'ARSENAL d'Etterbeek ! <br />
+	<p> L Association des Cercles Etudiants, le Cercle du Libre-Examen, l'Union des Anciens Etudiants et l'Ordre Théodore Verhaegen ont le plaisir de vous convier à sa NUIT THEODORE VERHAEGEN dans le cadre superbement restauré de l'ARSENAL d'Etterbeek ! </p>
 	<p><a class="btn" href="?action=ntv">Page du bal &raquo;</a></p>
   </div>
   <div class="span5">
 	<h3>Quête sociale</h3>
 	<a href="?action=quetesociale"><img src="data/images/cap48.jpg" height="150"/></a>
-	<p>Depuis de nombreuses années, à l'approche de la Saint-V, les étudiants fraîchement baptisés partent à l'assaut des passants et automobilistes pour solliciter quelques oboles. L'origine de cette tradition est très lointaine et incertaine. Mais, lorsque nous retraçons l'histoire de la Saint-V, nous découvrons qu'en 1939, l'Association Générale des Etudiants (ancêtre de l actuelle Association des Cercles Etudiants) 
+	<p>Depuis de nombreuses années, à l'approche de la Saint-V, les étudiants fraîchement baptisés partent à l'assaut des passants et automobilistes pour solliciter quelques oboles. L'origine de cette tradition est très lointaine et incertaine. Mais lorsque nous retraçons l'histoire de la Saint-V...</p> 
 	<p><a class="btn" href="?action=quetesociale">En savoir plus &raquo;</a></p> 
   </div>
   <div class="span5">
