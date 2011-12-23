@@ -62,30 +62,19 @@
 ?>
 <h3>Listes par Cercle</h3>
 <div class="row">
-  <div class="span7">
-	<table class="zebra-striped">
-	  <thead>
-		<tr>
-		  <th>Cercle</th>
-		  <th>Dernière mise à jour</th>
-		</tr>
-	  </thead>
-	  <tbody>
-		<?php
-		  foreach($lists as &$item) {
-			$tmp = preg_replace("/\\.[^.\\s]{3,4}$/", "", $item);
+  <?php
+	for ($i = 0; $i < 3; $i++) {
+		echo "<div class=\"span5\"> \n";
+		echo "<ul> \n";
+		for ($j = ($i *9); $j < ($i + 1)*9; $j++) {
+		  if ($lists[$j] != null) {
+			$tmp = preg_replace("/\\.[^.\\s]{3,4}$/", "", $lists[$j]);
 			$tmp = explode(" ", $tmp);
-			echo "<tr>";
-			echo "<td> <a href=\"" . $dir . "/" . $item . "\">" . str_replace("_", " ", $tmp[0]) . "</a></th>";
-			echo "<td>" . $tmp[1] . "</th>";
-			echo "</tr>";
+			echo "<li><a href=\"" . $dir . "/" . $lists[$j] . "\">" . $tmp[0] . "</a></li> \n";
 		  }
-		  unset($item);
-		?>
-	  </tbody>
-	</table>
-  </div>
-  <div class="span9">
-	<p></p>
-  </div>
+		}
+		echo "</ul> \n";
+		echo "</div> \n";
+	  }
+  ?>
 </div>
