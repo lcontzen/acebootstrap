@@ -22,9 +22,9 @@
 	</div>
 	
 	<div class="clearfix">
-      <label for="textarea">Message</label>
+      <label for="message">Message</label>
       <div class="input">
-        <textarea class="xxlarge" id="textarea" name="textarea" rows="5"></textarea>
+        <textarea class="xxlarge" id="message" name="message" rows="5"></textarea>
       </div>
     </div>
 	
