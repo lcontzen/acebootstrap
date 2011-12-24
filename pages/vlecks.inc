@@ -67,7 +67,7 @@
 		echo "<div class=\"span5\"> \n";
 		echo "<ul> \n";
 		for ($j = ($i *9); $j < ($i + 1)*9; $j++) {
-		  if ($lists[$j] != null) {
+		  if ($j < count($lists)) {
 			$tmp = preg_replace("/\\.[^.\\s]{3,4}$/", "", $lists[$j]);
 			$tmp = explode(" ", $tmp);
 			$tmp = str_replace("_", " ", $tmp);
