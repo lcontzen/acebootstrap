@@ -78,14 +78,15 @@
 		</div>
 	  </div> 
 	  <div class="content">
-		<?php
-		  include_once("pages/" . $action . ".inc");
-		?>
-		
-		<footer>
-		  <p>&copy; Association des Cercles Etudiants 2011-2012 | Contact : webmaster@ace-ulb.org</p>
-		</footer>
-		
+		<div class="span16">
+		  <?php
+			include_once("pages/" . $action . ".inc");
+		  ?>
+
+		  <footer>
+			<p>&copy; Association des Cercles Etudiants 2011-2012 | Contact : webmaster@ace-ulb.org</p>
+		  </footer>
+		</div>
 	  </div> <!-- /container -->
 	  
 	</div>
