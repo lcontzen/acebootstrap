@@ -78,8 +78,7 @@
 		</div>
 	  </div> 
 	  <div class="content">
-		<div class="row">
-		  
+		<div class="row">		  
 		  <div class="span16">
 			<?php
 			  include_once("pages/" . $action . ".inc");
