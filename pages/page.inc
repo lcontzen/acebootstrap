@@ -84,8 +84,8 @@
 			  include_once("pages/" . $action . ".inc");
 			?>
 			
-			<footer align="center">
-			  <p>&copy; Association des Cercles Etudiants 2011-2012 | Contact : webmaster@ace-ulb.org</p>
+			<footer>
+			  <p align="center">&copy; Association des Cercles Etudiants 2011-2012 | Contact : webmaster@ace-ulb.org</p>
 			</footer>
 		  </div>
 		</div>
