@@ -10,7 +10,7 @@
 	<div class="clearfix">
 	  <label for="login">Login</label>
 	  <div class="input">
-		<input class="xlarge" id="login" name="login" size="30" type="text" placeholder="Login" />
+		<input class="xlarge" id="login" name="username" size="30" type="text" placeholder="Login" />
 	  </div>
 	</div>
 
@@ -26,6 +26,10 @@
 	</div>
   </fieldset>
 </form>
+<?php
+   } else {
+?>
+<p>ohai</p>
 <?php
    }
 ?>
