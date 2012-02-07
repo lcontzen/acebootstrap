@@ -74,6 +74,7 @@
 		  <b>Divers</b>
 		  <ul>
 			<li><a href="?action=links">Liens</a></li>
+			<li><a href="?action=loginpage">Login</a></li>
 		  </ul>
 		</div>
 	  </div> 
