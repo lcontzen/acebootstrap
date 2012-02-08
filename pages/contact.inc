@@ -42,6 +42,6 @@
 	 }
    else
 	 {//if "email" is not filled out, display the form
-	   include("contactform.inc");
+	   include("forms/contact.inc");
 	 }
 ?>

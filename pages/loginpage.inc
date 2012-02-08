@@ -4,7 +4,7 @@
 
 <?php
    if($auth->is_anonymous()) {
-	 include ("loginform.inc");
+	 include ("forms/login.inc");
    } else {
 ?>
 <p>ohai</p>

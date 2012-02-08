@@ -42,6 +42,6 @@
 ?>
 <p>You need to be logged in to add a new user. Forgot to log in?</p>
 <?php
-	include("loginform.inc");
+	include("forms/login.inc");
 	}
 ?>
