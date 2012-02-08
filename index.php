@@ -20,7 +20,7 @@ try {
 	  $user->register_new_user($reg_username,
 							   $hashed_passwd,
 							   $reg_email,
-							   'temp');
+							   $reg_status);
 	  $action = "admin";
 	}
   }
