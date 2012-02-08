@@ -41,6 +41,23 @@
               <li><a href="?action=photos">Photos</a></li>
               <li><a href="?action=contact">Contact</a></li>
 			</ul>
+			<?php
+			  if ((!$auth->is_anonymous()) && ($user->get_status() == "admin")) {
+			?>
+			<ul class="nav secondary-nav">
+			  <li class="dropdown">
+				<a href="#" class="dropdown-toggle"><?php echo $user->get_username(); ?></a>
+				<ul class="dropdown-menu">
+                  <li><a href="?action=admin">Admin</a></li>
+                  <li><a href="#">Todo</a></li>
+                  <li class="divider"></li>
+                  <li><a href="?action=logout">Logout</a></li>
+				</ul>
+              </li>
+			</ul>
+			<?php
+			  }
+			?>
           </div>
 		</div>
       </div> 
@@ -74,7 +91,17 @@
 		  <b>Divers</b>
 		  <ul>
 			<li><a href="?action=links">Liens</a></li>
+			<?php
+			  if ($auth->is_anonymous()) {
+			?>
 			<li><a href="?action=loginpage">Login</a></li>
+			<?php
+			  } else {
+			?>
+			<li><a href="?action=logout">Logout</a></li>
+			<?php
+			  }
+			?>
 		  </ul>
 		</div>
 	  </div> 
