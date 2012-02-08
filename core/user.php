@@ -21,26 +21,28 @@ class User {
 	  $this->username = $line['Username'];
 	  $this->status = $line['Status'];
 	}
-	else {
-	  $req = "SELECT * FROM Users WHERE Username LIKE '$username'";
-	  $result = $data->request($req);
-	  if (mysql_num_rows($result) == 0) {
-		$this->email = utf8_decode ($email);
-		$this->password = utf8_decode ($password);
-		$this->username = utf8_decode ($username);
-		$this->status = utf8_decode ($status);
-		$req = "INSERT INTO Users (Email, Username, Password, Status)";
-		$req .= " VALUES ('$this->email', '$this->username', '$this->password', '$this->status')";
-		$data->request($req);
-	  }
-	  else
-		throw new Exception("Mail address already present in db");
-	}
   }
   
   public function get_mail_addr() { return $this->email; }
   public function get_username() { return $this->username; }
   public function get_status() {return $this->status; }
+
+  public function register_new_user($username, $password, $email, $status) {
+	$data = Data::create();
+	$req = "SELECT * FROM Users WHERE Username LIKE '$username'";
+	$result = $data->request($req);
+	if (mysql_num_rows($result) == 0) {
+	  $new_email = utf8_decode ($email);
+	  $new_password = utf8_decode ($password);
+	  $new_username = utf8_decode ($username);
+	  $new_status = utf8_decode ($status);
+	  $req = "INSERT INTO Users (Email, Username, Password, Status)";
+	  $req .= " VALUES ('$new_email', '$new_username', '$new_password', '$new_status')";
+	  $data->request($req);
+	}
+	else
+	  throw new Exception("Mail address already present in db");
+  }
   
 }
 
