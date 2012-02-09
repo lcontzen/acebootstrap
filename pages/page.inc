@@ -94,11 +94,11 @@
 			<?php
 			  if ($auth->is_anonymous()) {
 			?>
-			<li><a href="?action=loginpage">Login</a></li>
+			<!-- <li><a href="?action=loginpage">Login</a></li> -->
 			<?php
 			  } else {
 			?>
-			<li><a href="?action=logout">Logout</a></li>
+			<!-- <li><a href="?action=logout">Logout</a></li> -->
 			<?php
 			  }
 			?>
