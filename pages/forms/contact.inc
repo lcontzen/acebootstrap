@@ -24,7 +24,7 @@
 	<div class="clearfix">
       <label for="message">Message</label>
       <div class="input">
-        <textarea class="xxlarge" id="message" name="message" rows="5"></textarea>
+        <textarea class="span7" id="message" name="message" rows="5"></textarea>
       </div>
     </div>
 	
