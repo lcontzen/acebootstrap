@@ -1,14 +1,11 @@
-<!-- <div class="hero-unit"> -->
-  <div class="row">
-	<div class="span3">
-	  <p><img src="data/images/logoACE.jpg" height="150" alt="Logo ACE" /></p>
-	</div>
-	<div class="span13">
-	  <h2>Bienvenue sur le site de l'Association des Cercles Etudiants de l'ULB</h2>
-	  <!-- <p> L'Association des Cercles Etudiants vous souhaite de joyeuses fêtes! <br /></p> -->
-	</div>
+<div class="row">
+  <div class="span3">
+	<p><img src="data/images/logoACE.jpg" height="150" alt="Logo ACE" /></p>
   </div>
-<!-- </div> -->
+  <div class="span13">
+	<h2>Bienvenue sur le site de l'Association des Cercles Etudiants de l'ULB</h2>
+  </div>
+</div>
 <hr>
 <h2>Dernières nouvelles :</h2>
 <div class="row">
