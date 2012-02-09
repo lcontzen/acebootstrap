@@ -30,8 +30,9 @@
 		  $email = $_REQUEST['email'] ;
 		  $subject = $_REQUEST['subject'] ;
 		  $message = $_REQUEST['message'] ;
-		  mail("webmaster@ace-ulb.org", "Subject: $subject",
-			   $message, "From: $email" );
+		  $name = $_REQUEST['name'];
+		  mail("webmaster@ace-ulb.org", "$subject",
+			   $message, "From: $name <$email>" );
 		  echo "Mail envoyé!";
 		}
 	  } else {
