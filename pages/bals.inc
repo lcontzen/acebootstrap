@@ -6,6 +6,7 @@
   <div class="span4" align="right">
 	<p>
 	  <b>Vendredi 10 Février :</b> <br />
+	  <br />
 	  <b>Vendredi 17 Février :</b> <br />
 	  <b>Vendredi 24 Février :</b>
 	</p>
@@ -13,6 +14,7 @@
   <div class="span5">
 	<p>
 	  Agro <br />
+	  CELB <br />
 	  Philo  <br />
 	  CJC <br />
 	  CP
@@ -26,7 +28,10 @@
 	<p>
 	  <b>Vendredi 02 Mars :</b> <br />
 	  <br />
+	  <b>Samedi 03 Mars : </b> <br />
 	  <b>Vendredi 09 Mars :</b> <br />
+	  <br />
+	  <b>Samedi 10 Mars : </b> <br />
 	  <b>Vendredi 23 Mars :</b> <br />
 	  <br />
 	  <b>Vendredi 30 Mars :</b>
@@ -36,7 +41,10 @@
 	<p>
 	  CdS <br />
 	  Droit <br />
+	  Pharma <br />
 	  CPS  <br />
+	  CIGA <br />
+	  CM <br />
 	  CHAA/CdH/CROM <br />
 	  ISEP/KINE <br />
 	  CARé
