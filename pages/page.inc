@@ -70,11 +70,11 @@
 		  <ul>
 			<li><a href="?action=listesace">Listes ACE</a></li>
 			<li><a href="?action=vlecks">Listes Vlecks</a></li>
-			<li><a href="?action=charte">Charte Horaire</a></li>
-			<li><a href="?action=amendes">Amendes Jefke</a></li>
-			<li><a href="?action=facturejefke">Facture Jefke</a></li>
-			<li><a href="?action=statuts">Statuts de lACE</a></li>
-			<li><a href="?action=postes">Description des postes</a></li>
+			<!-- <li><a href="?action=charte">Charte Horaire</a></li> -->
+			<!-- <li><a href="?action=amendes">Amendes Jefke</a></li> -->
+			<!-- <li><a href="?action=facturejefke">Facture Jefke</a></li> -->
+			<!-- <li><a href="?action=statuts">Statuts de lACE</a></li> -->
+			<!-- <li><a href="?action=postes">Description des postes</a></li> -->
 			<li><a href="?action=heresie">Hérésie</a></li>
 		  </ul>
 		  <b>Agenda</b>
@@ -84,7 +84,7 @@
 		  </ul>
 		  <b>Activités</b>
 		  <ul>
-			<li><a href="?action=saintv">Saint V</a></li>
+			<!-- <li><a href="?action=saintv">Saint V</a></li> -->
 			<li><a href="?action=quetesociale">Quête Sociale</a></li>
 			<li><a href="?action=ntv">Nuit Théodore Verhaegen</a></li>
 		  </ul> 
