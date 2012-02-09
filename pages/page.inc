@@ -113,7 +113,7 @@
 			?>
 			
 			<footer>
-			  <p>&copy; Association des Cercles Etudiants 2011-2012 | Contact : webmaster@ace-ulb.org</p>
+			  <p>&copy; Association des Cercles Etudiants 2011-2012 | Contact : webmaster@ace-ulb.org |  HTML5 Valid : <a href="http://validator.w3.org/check?uri=http%3A%2F%2Face-ulb.org%2Fnew%2F"><img src="data/images/valid_html5.png" alt="Valid html5" /></a></p>
 			</footer>
 		  </div>
 		</div>
