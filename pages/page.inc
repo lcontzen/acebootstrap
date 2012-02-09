@@ -113,7 +113,7 @@
 			?>
 			
 			<footer>
-			  <p align="center">&copy; Association des Cercles Etudiants 2011-2012 | Contact : webmaster@ace-ulb.org</p>
+			  <p>&copy; Association des Cercles Etudiants 2011-2012 | Contact : webmaster@ace-ulb.org</p>
 			</footer>
 		  </div>
 		</div>

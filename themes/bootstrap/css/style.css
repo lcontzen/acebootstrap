@@ -1705,6 +1705,7 @@ a.menu:after, .dropdown-toggle:after {
   line-height: 27px;
 }
 footer {
+  text-align: center;
   margin-top: 17px;
   padding-top: 17px;
   border-top: 1px solid #eee;
