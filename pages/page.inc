@@ -3,7 +3,6 @@
   <head>
     <meta charset="utf-8">
 	<title><?php echo $config->get_site_name(); ?></title>
-    <!-- <title>Association des Cercles Etudiants</title> -->
     <meta name="description" content="">
     <meta name="author" content="">
 	
@@ -21,7 +20,6 @@
 	  }
 	</style>
 	<script type="text/javascript" src="./themes/<?php echo $config->get_site_theme(); ?>/js/jquery-1.5.2.min.js"></script>
-    <!-- <script src="http://autobahn.tablesorter.com/jquery.tablesorter.min.js"></script> -->
     <script type="text/javascript" src="./themes/<?php echo $config->get_site_theme(); ?>/js/prettify.js"></script>
     <script>$(function () { prettyPrint() })</script>
 	<script type="text/javascript" src="./themes/<?php echo $config->get_site_theme(); ?>/js/bootstrap-dropdown.js"></script>
