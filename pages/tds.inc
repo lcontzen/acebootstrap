@@ -19,7 +19,7 @@
 		  <td> <b>Jeudi 16/02</b> <br /> CD </td>
 		</tr>
 		<tr>
-		  <td> <b>Lundi 20/02</b> <br /> / </td>
+		  <td> <b>Lundi 20/02</b> <br /> Semeur </td>
 		  <td> <b>Mardi 21/02</b> <br /> / </td>
 		  <td> <b>Mercredi 22/02</b> <br /> SEMEUR </td>
 		  <td> <b>Jeudi 23/02</b> <br /> CPSY </td>
